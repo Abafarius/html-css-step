@@ -1,0 +1,49 @@
+body{
+}
+.text-1{
+    color: blue;
+}
+#red-text{
+    color: red;
+}
+.orange-text{
+    color: orange;
+
+}
+.yellow-text{
+    color: yellow;
+}
+.green-text{
+    color: green;
+}
+.cyan-text{
+    color: cyan;
+}
+.blue-text{
+    color: blue;
+
+}
+.violet-text{
+    color: purple;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+p{
+    color: rebeccapurple;
+    text-align: justify;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+u{
+    text-decoration: none;
+    white-space: pre;
+    letter-spacing: 15px;
+    text-align: end;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    font-weight: 900;
+}
