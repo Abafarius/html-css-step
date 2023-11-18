@@ -1,0 +1,48 @@
+body{
+    background-color: #f3f4f5;
+}
+#h1{
+    color: #FFB600;
+    text-align: center;
+}
+#act1-h2{
+    color: #00AC6B;
+    text-align: center;
+}
+#prologue-h2{
+    color: blueviolet;
+}
+.text-poem{
+    color: #0F4DA8;
+    line-height: 21px;
+    word-spacing: 7px;
+    text-align: left;
+    white-space: pre;    
+}
+p{
+    color: #0487A0;
+    text-align: center;
+}
+
+em{
+    color: red;
+}
+pre{
+    color: blue;
+}
+.underlined-text{
+    text-decoration: underline;
+}
+b{
+    font-size: 30px;
+}
+strong{
+    font-size: 30px;
+}
+.bold-big-letter{
+    font-weight: 900;
+    font-size: 30px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
