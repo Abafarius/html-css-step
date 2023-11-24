@@ -1,0 +1,14 @@
+h1{
+    font-weight: 900;
+    text-align: center;
+}
+.quote{
+    text-align: end;
+    font-size: 14px;
+    font-style: italic;
+}
+.quote2{
+    text-align: end;
+    font-size: 10px;
+    font-style: italic;
+}

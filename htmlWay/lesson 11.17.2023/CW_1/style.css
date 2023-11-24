@@ -1,0 +1,14 @@
+body{
+    background-color: #f2f3f4;
+}
+sup{
+    color: blue;
+    font-weight: 900;
+}
+.vehicle-description{
+    text-align: justify;
+}
+.text-res{
+    text-align: justify;
+    font-size: 12px;
+}

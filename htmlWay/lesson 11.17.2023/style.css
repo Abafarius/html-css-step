@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 body{
 }
 .text-1{
     color: blue;
+    font-family: 'Roboto', sans-serif;
+    
 }
 #red-text{
     color: red;
@@ -37,6 +42,8 @@ p{
     text-align: justify;
     word-spacing: 10px;
     line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    
 }
 u{
     text-decoration: none;
@@ -46,4 +53,5 @@ u{
     text-transform: uppercase;
     word-spacing: 7px;
     font-weight: 900;
+    
 }
