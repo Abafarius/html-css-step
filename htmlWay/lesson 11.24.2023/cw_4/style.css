@@ -1,0 +1,32 @@
+div{
+    width: 150px;
+    height: 150px;
+}
+.container{
+    margin-top: 500px;
+    margin-left: 1290px;
+}
+p{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.div1{
+    background-color: #f573f4;
+}
+.div2{
+    background-color: orangered;
+    margin-left: 150px;
+}
+.div3{
+    background-color: navy;
+    margin-left: 300px;
+
+
+}
+.div4{
+    background-color: gold;
+
+    margin-left: 450px;       /*  top right bottom left   */
+}
+
+

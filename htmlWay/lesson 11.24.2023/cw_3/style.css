@@ -3,26 +3,28 @@ div{
     height: 150px;
 }
 .div1{
-    background-color: blue;
+    background-color: #f573f4;
+
+
 }
 .div2{
     background-color: orangered;
-    display: none;
 }
 .div3{
     background-color: navy;
-    display: none;
-    display: inline-block;
+   
+
 }
 .div4{
     background-color: gold;
-    display: inline-block;
+
+    margin: 50px 45px 25px 35px;         /*  top right bottom left   */
 }
 .div5{
     background-color: green;    
 }
 .div6{
     background-color: aquamarine;
-    display: inline;
+
 }
 

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    width: 150px;
+    height: 150px;
+}
+
+
+.div1{
+    background-color: blue;
+    border-right:  3px solid saddlebrown;
+}
+.div2{
+    background-color: orangered;
+    border: 3px dashed green;
+    border-radius: 30px;
+}
+.div3{
+    background-color: navy;
+    border: 3px dotted hotpink;
+    border-radius: 50px;
+}
+.div4{
+    background-color: gold;
+}
+
+
