@@ -1,0 +1,14 @@
+h1{
+    color: #b10000;
+}
+p{
+    width: 900px;
+    height: 300px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    margin-left: 50px;
+    font-size: 26px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
