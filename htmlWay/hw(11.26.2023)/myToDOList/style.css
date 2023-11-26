@@ -1,10 +1,17 @@
 *{
     margin: 0
 }
+li{
+    padding: 15px;
+    list-style-position: inside;
+}
 .undone{
     background-color: #a5ccda;
-    list-style-type: url(img/icons8-unchecked-checkbox-35.png);
+    list-style-image: url(img/unchecked.png);
 }
 .done{
     background-color: #e2e2e2;
+}
+span{
+    color: red;
 }
