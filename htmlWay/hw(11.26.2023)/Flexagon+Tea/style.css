@@ -1,8 +1,8 @@
-h1{
+.flexagon-h1{
     color: #b10000;
     font-size: 42px;
 }
-p{
+.flexagon-text{
     width: 900px;
     height: 300px;
     border-bottom: 2px solid;
@@ -12,4 +12,20 @@ p{
     text-align: justify;
     padding-left: 15px;
     padding-bottom: 15px;
+}
+.container{
+    width: 400px;
+    height: 210px;
+    border: 5px ridge gray;
+}
+.tea-h1{
+    background-color: #41949f;
+    margin: 15px 10px;
+    padding: 15px;
+    color: white;
+}
+.tea-text{
+    background-color: #cad8d0;
+    margin: 15px 10px;
+    padding: 15px;
 }
