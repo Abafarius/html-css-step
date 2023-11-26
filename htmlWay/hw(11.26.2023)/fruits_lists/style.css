@@ -1,0 +1,53 @@
+div{
+    background-color: #ed9eae;
+    width: 600px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+ol{
+    list-style-position: inside;
+    color: white;
+    padding-top: 9px;
+}
+
+li{
+    background-color: #c66376;
+    padding: 15px;
+    margin: 15px 20px 15px -15px
+}
+
+.text{
+    background-color: #9e354a;
+    padding: 15px;
+    margin-left: 5px;
+    width: 150px;
+}
+/* 
+.apple{
+    background-color: #9e354a;
+    padding: 15px;
+    margin-left: 5px;
+    width: 150px;
+}
+.orange{
+    background-color: #9e354a;
+    padding: 15px;
+    margin-left: 5px;
+    width: 150px;
+}
+.pinapple{
+    background-color: #9e354a;
+    padding: 15px;
+    margin-left: 5px;
+    width: 150px;
+}
+.pear{
+    background-color: #9e354a;
+    padding: 15px;
+    margin-left: 5px;
+    width: 150px;
+}
+.cherry{
+
+} */
