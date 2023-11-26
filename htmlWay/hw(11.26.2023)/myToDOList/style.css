@@ -1,0 +1,10 @@
+*{
+    margin: 0
+}
+.undone{
+    background-color: #a5ccda;
+    list-style-type: url(img/icons8-unchecked-checkbox-35.png);
+}
+.done{
+    background-color: #e2e2e2;
+}
