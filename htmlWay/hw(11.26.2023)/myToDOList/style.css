@@ -1,8 +1,20 @@
 *{
     margin: 0
 }
+div{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 1000px;
+}
+h1{
+    margin-bottom: 20px;
+}
+ul{
+    padding: 0px;
+}
 li{
     padding: 15px;
+    padding-left: 60px;
     list-style-position: inside;
 }
 .undone{
@@ -11,11 +23,16 @@ li{
 }
 .done{
     background-color: #e2e2e2;
+    list-style-image: url(img/checked.png);
+
 }
 .xSymb{
     color: red;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 .text{
     margin-left: 15px;
+}
+.tdone{
+    text-decoration: line-through;
 }
