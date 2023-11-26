@@ -5,6 +5,8 @@ div{
     margin-left: 25px;
     margin-top: 10px;
     width: 1000px;
+    height: 400px;
+    overflow-y: scroll;
 }
 h1{
     margin-bottom: 20px;
