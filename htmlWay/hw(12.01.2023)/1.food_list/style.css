@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/fridge\ background.gif);
+}
+
+h1{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.box{
+    width: 170px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid gray;
+    float: left;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+img{
+    padding-left: 35px;
+    padding-top: 30px;
+    width: 130px;
+}
+.food-name{
+    padding-left: 55px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.out-box{
+    margin-top: 30px;
+    width: 100vw;
+    height: 250px;
+
+}
