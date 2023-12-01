@@ -1,0 +1,11 @@
+img{
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+.box{
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}

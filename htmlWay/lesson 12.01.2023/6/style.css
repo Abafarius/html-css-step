@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-image: url(/4/img/icons8-instagram.svg);
+    width: 100vw;
+    height: 5000px;
+    background-color: black;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 500px;
+
+}
+
+
+p{
+    height: 500px;
+    width: 100vw;
+    background-color: bisque;
+}
