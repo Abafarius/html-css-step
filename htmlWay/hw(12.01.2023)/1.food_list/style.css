@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 
+
 body{
     background-image: url(img/fridge\ background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
-    margin-left: 300px;
+    margin-left: 850px;
     margin-top: 40px;
 }
 .box{
     width: 170px;
     height: 200px;
     margin: 10px;
+    margin-left: 200px;
     border: 1px solid gray;
     float: left;
     border-radius: 20px;
@@ -36,4 +40,14 @@ img{
     width: 100vw;
     height: 250px;
 
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer-text{
+    margin-left: 960px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
 }
