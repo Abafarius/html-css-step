@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2A4E70;
+}
+.container-inner{
+    border: 2px solid;
+    width: 700px;
+    height: 200px;
+    float: left;
+
+}
+
+p{
+    white-space: pre;
+    color: white;
+}
