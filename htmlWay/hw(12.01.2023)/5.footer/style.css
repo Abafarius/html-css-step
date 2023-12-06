@@ -9,14 +9,30 @@ footer{
     background-color: #2A4E70;
 }
 .container-inner{
-    border: 2px solid;
-    width: 700px;
+
+    width: 640px;
     height: 200px;
     float: left;
-
+    padding-left: 180px;
+    padding-top: 10px;
+    font-size: 22px;
 }
 
+img{
+    margin-left: 40px;
+    margin-top: 50px;
+}
 p{
     white-space: pre;
     color: white;
+}
+hr{
+    float: none;
+    width: 1750px;
+    margin-left: 80px;
+}
+.copyright-text{
+    float: none;
+    margin-top: 50px;
+    margin-left: 900px;
 }
