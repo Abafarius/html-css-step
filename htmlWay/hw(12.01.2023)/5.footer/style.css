@@ -6,25 +6,34 @@
 footer{
     width: 100vw;
     height: 100vh;
-    background-color: #2A4E70;
+    background: url(img/AqS6Xm.gif) no-repeat;
+    opacity: 0.9;
+    background-size: cover;
 }
 .container-inner{
-
     width: 640px;
     height: 200px;
     float: left;
-    padding-left: 180px;
-    padding-top: 10px;
+    padding-left: 200px;
+    padding-top: 50px;
     font-size: 22px;
 }
-
-img{
-    margin-left: 40px;
-    margin-top: 50px;
+.images-container{
+    margin-top: 30px;
+    
 }
 p{
-    white-space: pre;
-    color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(126, 229, 15);
+    width: 100px;
+    height: 110px;
+    background-color: black;
+}
+.p-2{
+    width: 90px;
+    height: 140px;
+    margin-left: 150px;
 }
 hr{
     float: none;
@@ -32,7 +41,43 @@ hr{
     margin-left: 80px;
 }
 .copyright-text{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
     float: none;
     margin-top: 50px;
     margin-left: 900px;
+    font-size: 19px;
+}
+.facebook{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background: url(img/fb_gray.png) no-repeat;
+}
+.insta{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 50px;
+    background: url(img/insta_gray.png) no-repeat;
+}
+.youtube{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    margin-left: 50px;
+    background: url(img/youtube_gray.png) no-repeat;
+}
+.facebook:hover{
+    background: url(img/fb.png) no-repeat;
+}
+.insta:hover{
+    background: url(img/insta.png) no-repeat;
+}
+.youtube:hover{
+    background: url(img/youtube.png) no-repeat;
+}
+span:hover{
+    text-decoration: underline;
 }
