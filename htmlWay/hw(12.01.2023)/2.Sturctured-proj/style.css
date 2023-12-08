@@ -70,7 +70,7 @@ menu{
     font-weight: 700;
 }
 .container-main{
-    width: 1427px;
+    width: 1200px;
     height: 550px;
     margin-left: 20px;
     float: left;
@@ -84,7 +84,7 @@ menu{
     font-weight: 700;
 }
 section{
-    width: 1250px;
+    width: 950px;
     height: 160px;
     background-color: rgb(243, 154, 197);
     margin-top: 20px;
