@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: azure;
+}
+.menu{
+    width: 100vw;
+    height: 70px;
+    background-color: coral;
+}
+ul{
+    padding-top: 25px;
+}
+li{
+    display: inline;
+    margin: 0 250px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: black;
+}
+.card{
+    width: 350px;
+    height: 580px;
+    background-color: coral;
+    border-radius: 5%;
+    padding: 25px 15px;
+    color: #fff;
+    margin: 100px 140px;
+    float: left;
+}
+.card:hover{
+    background-color: #fff;
+    color: coral;
+    border: 2px solid coral;
+    /* transform: translate(150px, 100px);  перемещение */
+    /* transform: skew(40deg); искажение */
+    /* transform: rotate(70deg); вращение */
+    transform: scale(1.2);
+
+}
+h1,
+.price{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 19px;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
