@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 2.5%;
+    background-image: url(img/pngtree-future-star-wars-star-science-and-technology-character-silhouette-image_2090951.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+}
+
+.image{
+    float: left;
+    width: 500px;
+    height: 600px;
+
+
+}
+.form-register{
+    float: left;
+    width: 497px;
+    height: 598px;
+    background-color: black;
+    border-radius: 0 20px 20px 0%;
+}
+
+.distance{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.reg-info-text{
+    margin-top: 70px;
+    float: left;
+}
+.name-text{
+    margin-top: 50px;
+}
+input, select{
+    width: 70%;
+    height: 40px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: 20px 0;
+    opacity: 0.2;
+}
+::placeholder{
+    color: aliceblue;
+}
+:focus{
+    outline: none;
+}
+button{
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 30%;
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    font-size: 19px;
+}
