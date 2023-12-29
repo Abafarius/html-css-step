@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+    font-size: 50px;
+}
+.box{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.o1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+}
+.o2{
+    width: 200px;
+    height: 200px;
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 0;
+}
+.o3{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.o4{
+    width: 200px;
+    height: 200px;
+    background-color: paleturquoise;
+    position: absolute;
+}
