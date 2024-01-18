@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b0dce4;
+}
+p, h3{
+    background-color: white;
+}
+
+.main-flexbox-container{
+    width: 100vw;
+    height: 100dvh;
+    margin: 20px;
+    display: flex;
+    position: relative;
+}
+.flex-items{
+    display: inherit;
+    width: 350px;
+    height: 150px;
+    border: 2px solid black;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
