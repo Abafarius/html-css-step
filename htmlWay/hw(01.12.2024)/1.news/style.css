@@ -7,23 +7,34 @@
 body{
     background-color: #b0dce4;
 }
+img{
+    width: 100%;
+}
 p, h3{
     background-color: white;
 }
 
 .main-flexbox-container{
-    width: 100vw;
-    height: 100dvh;
-    margin: 20px;
+    justify-content: center;
+    margin: 20px 0;
     display: flex;
     position: relative;
+    gap: 20px;
+}
+.sub-main-container{
+    display: inherit;
+    flex-direction: column;
+    gap: 20px;
 }
 .flex-items{
+    max-width: 350px;
+    background-color: #c8c4c4;
     display: inherit;
-    width: 350px;
-    height: 150px;
     border: 2px solid black;
-    gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+}
+.inner-text{
+    background-color: white;
+    padding: 10px;
+    word-spacing: 9px;
 }
