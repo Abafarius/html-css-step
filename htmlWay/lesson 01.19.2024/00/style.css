@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 200px 250px 400px 150px;
+    column-gap: 25px;
+    row-gap: 15px;
+    margin: 10px;
+}
+.grid__items {
+    border: 2px solid;
+}
+.grid1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid2 {
+}
+.grid3 {
+}
+.grid4 {
+}
+.grid5 {
+}
+.grid6 {
+}
+.grid7 {
+}
+.grid8 {
+}
+.grid9 {
+}
