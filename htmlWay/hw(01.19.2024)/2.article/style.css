@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 300px);
+}
+.grid-items1 {
+    grid-column:1/8 ;
+}
+.grid-items1 {
+    grid-column:8/13 ;
+}
+.inner-item {
+}
