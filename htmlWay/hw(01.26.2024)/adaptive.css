@@ -1,0 +1,90 @@
+@media (max-width: 1200px) {
+  
+    .header-container {
+        font-size: 14px;
+    }
+    .header p {
+      font-size: 14px;  
+    }
+  }
+  @media (max-width: 992px) {
+    .block1-slider{
+        display: none;
+    }
+    .block4-body {
+        flex-direction: column-reverse;
+    }
+    .gallery {
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+    .contacts {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-container, .header p {
+        font-size: calc(12px)
+    }
+    .about-item1{
+        flex: 0 0 60%;
+    }
+    .about-item2 {
+        flex: 0 0 40%;
+    }
+    .about-item3{ 
+        display: none;
+    }
+    .inputs-form {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .input5{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}
+ 
+  @media (max-width: 768px) {
+    .burger_img{
+        display: block;
+        grid-column: 2/4;
+    }
+    .header p{
+        grid-column: 11/12;
+    }
+    .header-container{
+        display: none;
+    }
+    .block1-aside {
+        display: none;
+    }
+    .block1{
+        height: 800px;
+    }
+  }
+  @media (max-width: 576px) {
+    .block1{
+        height: 600px;
+    }
+    .inputs-form {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .input5{
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .form-submit{
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    }
+
+
+  @media (max-width: 380px) {
+  
+  }
