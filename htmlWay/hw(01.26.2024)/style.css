@@ -3,15 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 ul li{
     list-style: none;
 }
 a{
     text-decoration: none;
 }
-.wrapper {
 
-}
 .header {
     font-size: 17px;
     margin-top: 50px;
@@ -38,27 +39,24 @@ a{
     background-color: gold;
 }
 .header-container {
-    grid-column: 3/6;
+    grid-column: 3/9;
     display: flex;
-    gap: 30px;
+    gap: 1.6vw;
     text-wrap: nowrap;
     letter-spacing: 2px;
 }
 a{
     color: white;
 }
-.header-link {
-    
-}
-.body {
-}
+
+
 .block1 {
     background: url(img/Background.png) no-repeat;
     background-size: cover;
     background-position: center center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 845px;
+    height: 1045px;
 }
 .block1-aside {
     justify-content: end;
@@ -82,12 +80,9 @@ a{
     text-wrap: nowrap;
     transform: rotate(-90deg);
 }
-.aside-link img:hover{
-    
-}
+
 .block1-body {
-    
-    grid-column: 3/13;
+    grid-column: 3/12;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -103,8 +98,8 @@ a{
 .block1-text-item {
     margin-top: 50px;
 }
-.block1-slider {
-}
+
+
 .slider-banners {
     position: relative;
 }
@@ -138,9 +133,6 @@ a{
     align-items: center;
     gap: 30px;
 }
-.pointer {
-
-}
 .block-button{
     padding: 14px 40px;
     background-color: goldenrod;
@@ -163,30 +155,36 @@ h2::first-letter{
 .block2 {
     background-color:rgb(51, 51, 51);
     color: white;
-    padding-bottom: 70px;
+    padding: 0 60px 70px;
 }
 .block2-about {
     display: flex;
-    gap: 20px;
     margin: 0 auto;
     max-width: 1200px;
 }
 .about-item {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+
 }
 .about-item1{
     flex: 0 0 40%;
 }
 .about-item2{
     flex: 0 0 28%;
+    gap: 20px;
+    padding: 0 20px;
 }
 .about-item2 img{
     width: 90px;
 }
 .about-item3{
     flex: 0 0 32%;
+    position: relative;
+}
+.about-item3 img{
+    width: 100%;
+    height: auto;
 }
 .golden-text {
     color: gold;
@@ -195,14 +193,25 @@ h3{
     font-size: 20px;
     letter-spacing: 2px;
 }
-
+.block3 h2 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
 .block3 {
     background-color:rgb(51, 51, 51);
     color: white;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(2,auto);
 }
 .gallery {
+    overflow: hidden;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 13;
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 .gallery-item {
     position: relative;
@@ -229,7 +238,7 @@ h3{
 .block4 {
     background-color:rgb(51, 51, 51);
     color: white;
-    padding-bottom: 70px;
+    padding:0 60px 70px;
 }
 .block4-body {
     display: flex;
@@ -238,7 +247,7 @@ h3{
 
 }
 .form {
-    flex: 0 0 70%
+    flex: 0 0 70%;
 }
 .inputs-form {
     display: grid;
@@ -279,6 +288,7 @@ h3{
 input{
     padding: 10px;
     background-color: gray;
+    flex-basis: auto;
 }
 textarea{
     background-color: gray;
@@ -291,9 +301,13 @@ input::placeholder{
     color: #d3d3d3;
     padding: 10px;
 }
+
+
+
 .contacts {
     flex: 0 0 30%;
 }
+
 .contacts p{
     margin-bottom: 20px;
 }
@@ -312,9 +326,11 @@ input::placeholder{
     flex: 0 0 auto;
 }
 
-
+.burger_img {
+    display: none;
+}
 .footer {
-    padding: 50px 0;
+    padding: 50px 60px;
     background-color:rgb(51, 51, 51);
 }
 .footer-body {
